@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form And Inputs</title>
+</head>
+<body>
+    <form action="">
+        <p>First name :
+            <input type="text" name="first name" >
+        </p>
+        <p>Last name :
+            <input type="text" name="last name" >
+        </p>
+        <p>Gender :
+            <input type="radio" name="gender" value="male" checked="checked"> Male 
+            <input type="radio" name="gender" value="female"> Female
+        </p>
+        <p>Email : 
+            <input type="text" name="email">
+        </p>
+        <p>
+
+
+           
+            <br />
+            Address :
+            <br />
+            <textarea name="Address" cols="28" rows="3"></textarea>
+        </p>
+
+    </form>
+</body>
+</html>
